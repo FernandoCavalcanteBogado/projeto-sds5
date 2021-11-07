@@ -20,7 +20,7 @@ public class Seller {
 	private String name;
 	
 	@OneToMany(mappedBy = "seller")
-	private List<Sale> sales = new ArrayList<>();
+	private List<Sale> sales = new ArrayList<Sale>();
 	
 	public Seller() {
 	}
