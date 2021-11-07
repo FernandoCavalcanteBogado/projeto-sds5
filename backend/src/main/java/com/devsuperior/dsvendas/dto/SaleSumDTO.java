@@ -6,10 +6,10 @@ import com.devsuperior.dsvendas.entities.Seller;
 
 public class SaleSumDTO implements Serializable {
 	private static final long serialVersionUID = 1L;
-
+	
 	private String sellerName;
 	private Double sum;
-
+	
 	public SaleSumDTO() {
 	}
 
@@ -33,8 +33,5 @@ public class SaleSumDTO implements Serializable {
 	public void setSum(Double sum) {
 		this.sum = sum;
 	}
-
-	public static long getSerialversionuid() {
-		return serialVersionUID;
-	}
+	
 }

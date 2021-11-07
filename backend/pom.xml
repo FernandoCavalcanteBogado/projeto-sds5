@@ -5,14 +5,14 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.4.12</version>
+		<version>2.5.6</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.devsuperior</groupId>
 	<artifactId>dsvendas</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>dsvendas</name>
-	<description>Projeto desenvolvido durante a semana Spring React da DevSuperior</description>
+	<description>Projeto desenvolvido durante evento sds5</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
